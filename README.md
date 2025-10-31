@@ -1,25 +1,30 @@
 # Proyecto Final - Docker & Kubernetes
 
-**Alumno:** [JUAN CARLOS ALANOCA TICONA]
-**Fecha:** [Fecha de Entrega]
+**Alumno:** JUAN CARLOS ALANOCA TICONA
+**Fecha:** 31/10/2025
 **Curso:** Docker & Kubernetes - i-Quattro
 
 ## Links de Docker Hub
-- Backend v2.1: https://hub.docker.com/r/tu-usuario/springboot-api/tags
-- Frontend v2.2: https://hub.docker.com/r/tu-usuario/angular-frontend/tags
+- Backend v2.1: https://hub.docker.com/r/juanalanoca/springboot-api/tags
+- Frontend v2.2: https://hub.docker.com/r/juanalanoca/angular-frontend/tags
 
 ## Parte 1: Setup del Ambiente
 
 **Ambiente utilizado:**
-- [VirtualBox / VMware / AWS / GCP / Azure / DigitalOcean]
-- Nombre de VM/Instancia: [tu-nombre-completo-k8s]
-- Sistema operativo: Ubuntu 24.04 LTS
+- VirtualBox
+- Nombre de VM/Instancia: juan-alanoca-k8
+- Sistema operativo: Ubuntu (64-bit)
 - Recursos: 4GB RAM, 2 CPU cores
-- Red configurada: [NAT/Bridged o tipo de red en cloud]
-- Rango MetalLB: [Tu rango de IPs]
+- Red configurada:(13)I219-LM Intel
+- Rango MetalLB: 10.241.2.240-10.241.2.250
 
 ### Screenshots
-![microk8s status](screenshots/parte1-microk8s-status.png)
+**configuracion maquina virtual:**
+![microk8s status](screenshots/v2.0/confguracion_maquina_virtual.png)
+
+**microk8s status:**
+![microk8s status](screenshots/v2.0/microk8s_status.png)
+
 ![Pods running](screenshots/parte1-pods-running.png)
 ![Frontend via MetalLB](screenshots/parte1-frontend-browser.png)
 
